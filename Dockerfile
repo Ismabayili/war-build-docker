@@ -1,5 +1,5 @@
 FROM tomcat
 COPY target/hello-world-war-1.0.0.war /usr/local/tomcat/webapps/ROOT.war
 COPY target/hello-world-war-1.0.0/ /usr/local/tomcat/webapps/ROOT
-EXPOSE 80
-EXPOSE 8080
+EXPOSE 81
+EXPOSE 8081
